@@ -7,6 +7,13 @@ function showElementById(elementId){
     const elements = document.getElementById(elementId);
     elements.classList.remove('hidden');
 }
+
+function addBackgroundColor(elementId){
+   const elements = document.getElementById(elementId);
+   elements.classList.add('bg-orange-400');
+}
+
+
 function getARandomAlphabet(){
     const alphabetstring = 'abcdefghijklmnopqrstuvwxyz';
     const alphabet = alphabetstring.split('');
